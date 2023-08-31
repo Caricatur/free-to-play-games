@@ -1,0 +1,35 @@
+.cardStyle {
+    background: white;
+    font-size: 20px;
+    display: block;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.contentStyle {
+    margin: 10px 0;
+    max-width: 400px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.spinStyle {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+}
+
+.buttonStyle {
+    margin-top: 15px;
+    display: block
+}
+
+.titleStyle {
+    margin: 10px 0
+}
+
+.descriptionStyle {
+    font-weight: bold;
+    font-size: 18px
+}

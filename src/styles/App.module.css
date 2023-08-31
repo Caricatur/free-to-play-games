@@ -1,0 +1,30 @@
+.siderStyle {
+    z-index: 0;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    top: 12%;
+    background-color: #272a30;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    overflow: auto;
+    font-size: 20px;
+    height: 90vh;
+    width: 30vw;
+    min-width: 130px;
+}
+
+.contentStyle {
+    z-index: 0;
+    display: inline;
+    padding: 24px;
+    margin: 10px;
+    background: #F0F2F5;
+    width: 75%;
+}
+
+.bacStyle {
+    background: #ffffff
+}

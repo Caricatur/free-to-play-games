@@ -1,0 +1,11 @@
+.footerStyle {
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    background-color: #272a30;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

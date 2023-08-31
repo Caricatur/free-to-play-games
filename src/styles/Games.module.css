@@ -1,0 +1,59 @@
+
+.style1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 2fr);
+    grid-column-gap: 5px;
+
+}
+@media (max-width: 1400px) {
+    .style1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 1090px) {
+    .style1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 790px) {
+    .style1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.cardStyle {
+    display: flex;
+    justify-content: center
+}
+
+.titleStyle {
+    color:#272a30
+}
+
+.linkStyle {
+    width: 300px;
+    padding: 10px 0;
+}
+
+.hoverableStyle {
+    width: 350px;
+    max-width: 80%;
+}
+
+.spinStyle {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+}
+
+
+.myBtn {
+    padding: 5px 15px;
+    margin: 0 10px;
+    color: teal;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid teal;
+    cursor: pointer;
+}

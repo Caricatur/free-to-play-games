@@ -1,0 +1,11 @@
+.headerStyle {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    background-color: #272a30;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
