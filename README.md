@@ -18,11 +18,12 @@
 ## Запуск сервера
 В проекте были использованы npm-пакеты, относящиеся к вышеперечисленным технологиям, а именно:
 - 'react'
-- "react-redux"
+- 'react-redux'
 - 'react-router-dom'
 - 'antd'
 - '@ant-design/icons'
-- "@reduxjs/toolkit"
+- '@reduxjs/toolkit'
+  
 Каждый из них можно установить командой:
 ```sh
 npm install --save 'name'
@@ -38,7 +39,6 @@ npm start
 http://localhost:3001
 ```
 ## Результаты работы
-Интерфейс с ПК:
 Главная страница:
 
 ![Главная страница](/ImagesForReadMe/Главная%20страница.jpg)
